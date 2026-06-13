@@ -1,8 +1,9 @@
 import smtplib
 import datetime as dt
 import random
-user_mail="bhand.kunal03@gmail.com"
-password="skbr mpgc ixen uosy"
+import os
+user_mail=os.environ.get("user_mail")
+password=os.environ.get("password")
 now=dt.datetime.now()
 weekday=now.weekday()  
 if weekday== 5:
