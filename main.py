@@ -15,7 +15,7 @@ if weekday== 5:
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user=user_mail,password=password)
-        connection.sendmail(from_addr=user_mail,to_addrs="bhand.kunal04@gmail.com",msg=f"Subject:Monday Quote\n\n {quote}")
+        connection.sendmail(from_addr=user_mail,to_addrs="bhand.kunal04@gmail.com",msg=f"Subject:Good Morning!! Quote\n\n {quote}")
 
 
 
