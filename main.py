@@ -6,7 +6,7 @@ user_mail="bhand.kunal03@gmail.com"
 password="skbr mpgc ixen uosy"
 now=dt.datetime.now()
 weekday=now.weekday()  
-if weekday== 5:
+if weekday==0 or 1 or 2 or 3 or 4 or 5 or 6:
     with open("quotes.txt","r") as quote_file:
         
         all_quotes=quote_file.readlines()
